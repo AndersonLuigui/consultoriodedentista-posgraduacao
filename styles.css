@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px 10px 0px 10px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,12 +7,11 @@
 
 body {
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(223,255,255,1) 100%);
+    background: linear-gradient(0deg, rgb(151, 165, 165) 0%, rgb(191, 240, 240) 100%);
 
 }
 /*ESTILIZAÇÃO DO MENU NAV*/
 .container   {
-
     max-width: 1400px;
     padding: 1%;
     margin: 0 auto;
@@ -25,7 +24,7 @@ nav {
 }
 
 nav img {
-    width: 50px;
+    width: 62px;
     cursor: pointer;
 }
 
@@ -40,7 +39,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #131212; 
+    text-shadow: rgb(172, 172, 172) 0.1em 0.1em 0.2em;
     padding: 6px 20px;
     text-decoration: none;
     font-size: 17px;
@@ -59,7 +59,7 @@ nav ul li a:hover {
 /*ESTILIZAÇÃO DO CORPO DR*/
 .container2 {
 
-    padding: 40px;
+    padding: 60px;
     display: flex;
 
 }
@@ -68,6 +68,16 @@ nav ul li a:hover {
     width: 350px;
     height: 350px;
     border-radius: 8px;  
+}
+
+.clientes h1 {
+    color: #131212; 
+    text-shadow: rgb(172, 172, 172) 0.1em 0.1em 0.2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    
 }
 
 
@@ -79,17 +89,66 @@ nav ul li a:hover {
     font-size: larger;
 }
 
+.caixa2 h1, h4 {
+    color: #131212;
+    text-shadow: rgb(172, 172, 172) 0.1em 0.1em 0.2em; 
+}
+
 /*ESTILIZAÇÃO DOS CLIENTES*/
+
+.img-cliente {
+    display: flex;
+    padding: 5px;
+}
+
 .img-cliente img {
-    width: 90px;
-    height: 90px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+
 
 }
 
+.img-cliente p {
+    padding-top: 3%;
+    color: black;
+    font-size: 15px;
+    
+}
+
+
+
 .clientes {
-    background-color: aquamarine;
     margin: 45px 350px 0px 350px;
    
+}
+
+.container3 ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 350px 25px 350px;
+}
+
+.container3 ul li {
+    list-style: none;
+
+}
+.container3 ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    color: black;
+    font-size: 10px;
+}
+
+.container3 p {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.container3 img {
+    width: 40px;
 }
 
 
