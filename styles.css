@@ -5,12 +5,28 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(223,255,255,1) 100%);
+
+}
 /*ESTILIZAÇÃO DO MENU NAV*/
 .container   {
-    background-color: azure;
+
     max-width: 1400px;
-    padding: 2%;
+    padding: 1%;
     margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 50px;
+    cursor: pointer;
 }
 
 nav ul {
@@ -30,11 +46,52 @@ nav ul li a {
     font-size: 17px;
     border-radius: 10px;
     transition: 0.9s; 
+    font-weight: 500;
+    cursor: pointer;
 }
 
 nav ul li a:hover {
     background-color: rgb(139, 185, 185);
+    color: rgb(53, 51, 51);
 }
+
+
+/*ESTILIZAÇÃO DO CORPO DR*/
+.container2 {
+
+    padding: 40px;
+    display: flex;
+
+}
+
+.container2 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;  
+}
+
+
+.caixa2 {
+
+    margin: auto;
+    padding: 20px;
+    color: rgb(4, 35, 43);
+    font-size: larger;
+}
+
+/*ESTILIZAÇÃO DOS CLIENTES*/
+.img-cliente img {
+    width: 90px;
+    height: 90px;
+
+}
+
+.clientes {
+    background-color: aquamarine;
+    margin: 45px 350px 0px 350px;
+   
+}
+
 
 
 
