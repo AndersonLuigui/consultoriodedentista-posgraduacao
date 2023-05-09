@@ -1,4 +1,5 @@
 * {
+
     margin: 0px 10px 0px 10px;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +7,8 @@
 }
 
 body {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgb(151, 165, 165) 0%, rgb(191, 240, 240) 100%);
+
+
 
 }
 /*ESTILIZAÇÃO DO MENU NAV*/
@@ -58,9 +59,15 @@ nav ul li a:hover {
 
 /*ESTILIZAÇÃO DO CORPO DR*/
 .container2 {
-
     padding: 60px;
     display: flex;
+
+
+
+    border-radius: 20px;
+    background: #ffffff10;
+    border: 2px solid #ffffff80;
+
 
 }
 
@@ -123,17 +130,16 @@ nav ul li a:hover {
    
 }
 
+/*FOOTER FOOTER FOOTER FOOTER*/
+
 .container3 ul {
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 60px 350px 25px 350px;
+    margin: 80px 400px 0px 400px;
 }
 
-.container3 ul li {
-    list-style: none;
-
-}
-.container3 ul li a {
+.container3 ul a {
     text-decoration: none;
     text-align: center;
     display: grid;
@@ -148,7 +154,15 @@ nav ul li a:hover {
 }
 
 .container3 img {
-    width: 40px;
+    width: 70px;
+}
+
+#git-borda {
+    border-radius: 12px;
+}
+
+#link-borda {
+    border-radius: 12px;
 }
 
 
