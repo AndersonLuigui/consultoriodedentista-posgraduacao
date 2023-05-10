@@ -96,12 +96,17 @@ nav ul li a:hover {
     color: rgb(4, 35, 43);
 }
 
+.caixa2 img {
+    width: 500px;
+}
+
 .caixa2 h4 {
-    color: #fffdfd; 
-    text-shadow: rgb(6, 6, 6) 0.0em 0.1em 0.1em;
-    font-size: 20px;
+    color: #242121; 
+    text-shadow: rgb(110, 106, 106) 0.0em 0.0em 0.1em;
+    font-size: 17px;
     border-radius: 10px;
-    font-weight: 500;
+    font-weight: 400;
+    padding-left: 10px;
 }
 
 .caixa2 h1 {
@@ -180,32 +185,62 @@ nav ul li a:hover {
 }
 
 /*ESTILIZAÇÃO PAG CONTATO*/
-.corpo {
-    background-color: darkgray;
-    margin: 0px 350px 0px 350px;
-    padding: 3%;
-    box-shadow: #fffdfd 0.0em 0.1em 0.2em;
 
+form {
+    font-family: sans-serif;
+    font-size: 18px;
+    max-width: 500px;
+    margin: 0px 400px 0px 480px;
 }
 
-.corpo h2 {
-    text-align: center;
-    padding: 2%;
+form h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
     color: #fffdfd; 
     text-shadow: rgb(6, 6, 6) 0.0em 0.1em 0.1em;
-    
 }
 
-.corpo table {
-    background-color: blue ;
-    display: flex;
-    justify-content: center;
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border: 1px solid;
 }
 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    background-color: #e4eeee;
+    color: black;
+    font-weight: bold;
+}
 
-.corpo table button {
-    display: flex;
-    align-items: center;
+.enviar {
+    background-color: #fff9f9;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: rgb(15, 1, 1);
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 

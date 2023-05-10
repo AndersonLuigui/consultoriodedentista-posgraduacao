@@ -26,28 +26,24 @@
     
     <!-- div corpo -->
     <div class="corpo">
-        <h2>Formulário de Contato:</h2>
     
-        <form>
-            <table>
-                <tr>
-                    <td><label>Nome:</label></td>
-                    <td><input type="name" placeholder="Nome"></td>
-                </tr>
-    
-                <tr>
-                    <td><label>E-mail:</label></td>
-                    <td><input type="text" placeholder="Email"></td>
-                </tr>
-    
-                <tr>
-                    <td><label>Menssagem:</label></td>
-                    <td><textarea cols="19" rows="10" placeholder="Menssagem"></textarea></td>
-                </tr>
-                  
-            </table>
-            <td><button><strong>Enviar</strong></button></td>
-        </form>
+        <form name="meu_form">
+
+            <h1>Entre em contato</h1>
+          
+            <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+          
+            <input type="tel" id="foneid" placeholder="(xx)9xxxx-xxxx" name="fone" />
+            <label for="fone">Número</label>
+          
+            <input type="email" id="emailid" placeholder="E-mail" name="email" />
+            <label for="email">Email</label>
+          
+            <textarea placeholder="Deixe sua opnião"></textarea>
+          
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+          </form>
     </div>
 
 
